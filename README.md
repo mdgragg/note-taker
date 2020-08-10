@@ -1,6 +1,6 @@
 # note-taker
 
-<img src="https://github.com/mdgragg/" width="700" />
+<img src="https://github.com/mdgragg/note-taker/master/public/assets/images/ScreenShot-1.png" width="700" />
 
 ## Description
 Description
