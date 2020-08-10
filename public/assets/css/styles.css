@@ -6,24 +6,30 @@ html, body {
 
 
 body { background: #6B6E70; font-family: 'Nunito', sans-serif;}
-body nav { background: #61892F; color: #222629; border-bottom: solid 5px #86C232;}
-.navbar-brand {color: #222629; font-family: 'Fjalla One', sans-serif; font-size: 30px; margin-bottom: -10px}
-.navbar-brand:hover {color: #86C232;}
+body nav { background: #222629; border-bottom: solid 5px #86C232;}
+.navbar-brand {color: #86C232; font-family: 'Fjalla One', sans-serif; font-size: 30px; margin-bottom: -10px}
+.navbar-brand:hover {color: #61892F;}
 
 .jumbotron { background: #222629; padding: 0px;}
 .jumbotron h1{ font-family: 'Fjalla One', sans-serif; color: #86C232; font-size: 100px;}
 .jumbotron h4{ color: white; font-size: 35px; margin-top: -10px; margin-bottom: 20px;}
 .jumbotron a{ margin: auto;}
 
-.notebook-img { max-width: 550px; object-fit: contain;}
-.light-green { background: #61892F; color: white; font-size: 20px; border: none; padding: 10px 25px;}
-.light-green:hover {background: #86C232; color: white;}
+.notebook-img {width: 100%; object-fit: contain;}
+.light-green { background: #86C232; color: white; font-size: 20px; border: none; padding: 10px 25px;}
+.light-green:hover {background: #61892F; color: white;}
 
-.save-note {
-  display: none;
-}
+.note-title { background: white; font-family: 'Fjalla One', sans-serif; padding: 20px; padding-top: 40px; padding-bottom: 40px;}
+.note-textarea { background: white; font-family: 'Nunito', sans-serif; font-size: 20px;padding-left: 20px; margin-top: -10px;}
+
+.card {background: #474B4F;}
+
+.notes {padding: 20px;}
+
+.save-note { display: none;}
 
 .icons i {
+  margin-top: 10px;
   margin-left: 15px;
   margin-right: 15px;
   font-size: 1.5rem;
@@ -31,11 +37,12 @@ body nav { background: #61892F; color: #222629; border-bottom: solid 5px #86C232
 }
 
 .note-textarea, .note-title {
-  color: #000000;
+  color: #474B4F;
   width: 100%;
   outline: none;
   border: none;
 }
+
 
 .note-textarea {
   resize: none;
@@ -49,8 +56,9 @@ body nav { background: #61892F; color: #222629; border-bottom: solid 5px #86C232
   font-size: 3rem;
 }
 
+
 .note-title:read-only, .note-textarea:read-only {
-  color: #757575;
+  color:  #474747;
 }
 
 .list-container .card {
@@ -75,9 +83,13 @@ body nav { background: #61892F; color: #222629; border-bottom: solid 5px #86C232
 .list-container i {
   font-size: 1.1rem;
   cursor: pointer;
+  color: #86C232;
 }
 
 .list-container .list-group-item {
+  background: #222629;
+  color: white;
+  border-bottom: 2px solid #6B6E70;
   border-left: none;
   border-right: none;
   padding: 20px;
