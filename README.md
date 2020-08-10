@@ -3,7 +3,7 @@
 <img src="https://raw.githubusercontent.com/mdgragg/note-taker/master/public/assets/images/ScreenShot-1.png" width="700" />
 
 ## Description
-Description
+This application can be used to write, save, and delete notes, using an express backend and save and retrieve note data from a JSON file.
 
 ## Table of Contents
 * [Installation](#installation)
@@ -13,13 +13,19 @@ Description
 
 ## Installation
 ```
-install npm
+npm install
 ```
 ## Usage
-Demo below shows how application works:
 
-![Demo]()
+View [Deployed App](https://note-taker-mdg.herokuapp.com/)
 
+Can also be viewed by running 'node server.js' (after 'npm install') in the terminal. After prompted with 'APP listening on PORT 8080', enter 'localhost:8080' in browser and application will start.
+
+Application allows users to create and save notes.
+
+Application allows users to view previously saved notes.
+
+Application allows users to delete previously saved notes.
 
 ![]()
 
