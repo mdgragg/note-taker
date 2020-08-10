@@ -1,12 +1,9 @@
 # note-taker
 
-
-# Team-Profile-Generator
-
 <img src="https://github.com/mdgragg/" width="700" />
 
 ## Description
-A
+Description
 
 ## Table of Contents
 * [Installation](#installation)
@@ -24,8 +21,7 @@ Demo below shows how application works:
 ![Demo]()
 
 
-
-![Demo](https://github.com/mdgragg/team-profile-generator/blob/master/assets/images/screenshots/tests.png?raw=true)
+![]()
 
 ## Contribution
 Pull request welcome or see contact info in questions section
