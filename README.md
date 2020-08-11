@@ -21,13 +21,11 @@ View [Deployed App](https://note-taker-mdg.herokuapp.com/)
 
 Can also be viewed by running 'node server.js' (after 'npm install') in the terminal. After prompted with 'APP listening on PORT 8080', enter 'localhost:8080' in browser and application will start.
 
-Application allows users to create and save notes.
+<img src="https://raw.githubusercontent.com/mdgragg/note-taker/master/public/assets/images/ScreenShot-2.png" width="400" />
 
-Application allows users to view previously saved notes.
+Application allows users to create/save notes and to view previously saved notes. This app also allows users to delete previously saved notes (edit and save icons shown below).
 
-Application allows users to delete previously saved notes.
-
-![]()
+<img src="https://raw.githubusercontent.com/mdgragg/note-taker/master/public/assets/images/ScreenShot-3.png" width="400" />
 
 ## Contribution
 Pull request welcome or see contact info in questions section
